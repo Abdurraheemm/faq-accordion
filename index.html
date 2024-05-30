@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * {
+            /* padding: 0;
+            margin: 0; */
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            background-color: #F8EEFF;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .image{
+            position:absolute ;
+            top: 0;
+            /* left: 0; */
+            z-index: -1;
+        }
+        .container{
+            width: 30%;
+            border: 2px solid;
+            background-color: white;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            padding: 20px;
+            
+            
+            
+
+        }
+        .head{
+            display: flex;
+            /* align-items: center; */
+            font-size: 1.2rem;
+            font-family: arial;
+            font-weight:bolder;
+        }
+        .qus1{
+            display: flex;
+            gap: 15% ;
+            
+    
+        }
+        .qus2{
+            display: flex;
+            gap: 15% ;
+            
+    
+        }
+        .qus3{
+            display: flex;
+            gap: 15% ;
+            
+    
+        }
+        .qus4{
+            display: flex;
+            gap: 15% ;
+            
+    
+        }
+        hr{
+            /* border: none;
+            height: 1px; */
+            background-color: #F8EEFF;
+        }
+
+
+        @media  (max-width:600px) {
+            .container{
+                width: 70%;
+                display:flex;
+                justify-content: center;
+                /* align-items: center; */
+            }
+            
+        }
+        
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="image"><img src="./background-pattern-desktop.svg" alt=""></div>
+
+        
+    
+
+    <div class="container">
+        <div class="head">
+            <img src="./assets/images/icon-star.svg" alt="icon-star">
+            <h1>FAQs</h1>
+
+        </div>
+
+
+
+        <div>
+            <div class="qus1">
+              <p>What is frontend Mentor,and how will it help me?</p>
+              <img src="./icon-minus.svg" alt="icon-minus">
+            </div>
+            <div class="matter">
+              <p>Frontend Mentor offers realistic coding challenges to help developers improve their 
+              frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
+              all levels and ideal for portfolio building.</p>
+            </div>
+            <hr>
+            <div class="qus2">
+                <p>What is frontend Mentor,and how will it help me?</p>
+                <img src="./icon-plus.svg" alt="icon-minus">
+              </div>
+              <!-- <div class="matter"><p>Frontend Mentor offers realistic coding challenges to help developers improve their 
+                  frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
+                  all levels and ideal for portfolio building.</p>
+              </div> -->
+              <hr>
+
+              <div class="qus3">
+                <p>What is frontend Mentor,and how will it help me?</p>
+                <img src="./icon-plus.svg" alt="icon-minus">
+              </div>
+              <!-- <div class="matter"><p>Frontend Mentor offers realistic coding challenges to help developers improve their 
+                  frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
+                  all levels and ideal for portfolio building.</p>
+              </div> -->
+              <hr>
+
+              <div class="qus4">
+                <p>What is frontend Mentor,and how will it help me?</p>
+                <img src="./icon-plus.svg" alt="icon-minus">
+              </div>
+              <!-- <div class="matter"><p>Frontend Mentor offers realistic coding challenges to help developers improve their 
+                  frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
+                  all levels and ideal for portfolio building.</p>
+              </div> -->
+        </div>
+    </div>  
+</body>
+</html>
